@@ -6,7 +6,8 @@ int main(){
     double b[3] = {4,5,6};
     Mathematica mathematica;
     std::cout << mathematica.dot_point( a, b ) << std::endl;
-    std::cout << mathematica.norm_2( a ) << std::endl;
+    std::cout << mathematica.vec_norm_1( a ) << std::endl;
+    std::cout << mathematica.vec_norm_2( a ) << std::endl;
     std::cout << "[" << mathematica.vector_sum( a, b )[0] << ","
               << mathematica.vector_sum( a, b )[1] << ","
               << mathematica.vector_sum( a, b )[2] << "]" << std::endl;
